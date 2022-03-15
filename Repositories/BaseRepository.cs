@@ -1,7 +1,7 @@
 using Npgsql;
-using Postdb.Settings;
+using School.Settings;
 
-namespace Postdb.Repositories;
+namespace School.Repositories;
 public class BaseRepository
 {
 

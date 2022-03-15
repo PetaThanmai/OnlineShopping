@@ -1,4 +1,4 @@
-namespace Postdb.Settings;
+namespace School.Settings;
 public class PostgresSettings
 {
     public string Host { get; set; }

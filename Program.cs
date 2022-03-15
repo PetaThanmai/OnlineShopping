@@ -1,12 +1,12 @@
-using Postdb.Repositories;
+using School.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddTransient<ICustomerRepository,CustomerRepository>();
-builder.Services.AddTransient<IProductRepository,ProductRepository>();
-builder.Services.AddTransient<IOrderRepository,OrderRepository>();
-builder.Services.AddTransient<ITagsRepository,TagsRepository>();
+builder.Services.AddTransient<@IClassRepository,@ClassRepository>();
+builder.Services.AddTransient<IStudentRepository,StudentRepository>();
+builder.Services.AddTransient<ISubjectRepository,SubjectRepository>();
+builder.Services.AddTransient<ITeacherRepository,TeacherRepository>();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

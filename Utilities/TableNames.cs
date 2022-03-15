@@ -1,13 +1,12 @@
-namespace Postdb.Utilities;
-
+namespace School.Utilites;
 public enum TableNames
 {
-    
-    customer,
-    product,
-    order,
-    tags,
-    order_product,
-    
-    
+    student,
+    teacher,
+
+    subject,
+    @class ,
+
+    stu_tea,
+    stu_sub,
 }
